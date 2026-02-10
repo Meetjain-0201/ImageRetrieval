@@ -1,0 +1,21 @@
+# Build files
+build/
+*.exe
+*.o
+*.obj
+
+# Feature files (can be large)
+data/*.csv
+
+# Images (too large for git)
+images/*.jpg
+images/*.png
+images/*.bmp
+
+# IDE files
+.vscode/
+*.user
+
+# System files
+.DS_Store
+Thumbs.db
